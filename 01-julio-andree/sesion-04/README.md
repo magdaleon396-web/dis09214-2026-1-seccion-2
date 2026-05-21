@@ -34,4 +34,3 @@ Sintaxis: map(valor, min_original, max_original, min_nuevo, max_nuevo)
 * valor: La variable que quieres "mapear" (por ejemplo, mouseX).
 * min_original y max_original: El rango en el que se encuentra ese valor actualmente
 * min_nuevo y max_nuevo: El rango al que lo quieres transformar.
-* 
