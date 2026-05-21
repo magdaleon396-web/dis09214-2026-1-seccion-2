@@ -1,5 +1,4 @@
 # Sesión 05 - 17/04
-# Clase 17/04
 ## TRANSFORMACIONES & CONDICIONALES (If - else)
 
 - El p5 mide los ángulos en radianes
