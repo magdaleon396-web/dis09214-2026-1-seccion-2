@@ -70,5 +70,67 @@ biblioteca ml5js: https://docs.ml5js.org/#/reference/facemesh?id=methods
 
 Código que se utilizó de base para el confeti: https://editor.p5js.org/aceschen/sketches/A1Yn7XDc8 
 
+```
+let confetti = [];
+
+function setup() {
+  createCanvas(400, 400);
+  rectMode(CENTER);
+  for (let i = 0; i < 100; i++) {
+    let col = color(random(100, 255), random(100, 255), random(100, 255), random(120, 240));
+    confetti[i] = new Confetto(random(width), random(0, 30), random(10, 20), col);
+  }
+}
+
+function draw() {
+  background(0);
+  for (let c of confetti) {
+    c.move();
+    c.display();
+  }
+}
+
+class Confetto {
+  constructor(_x, _y, _s, _c) {
+    this.x = _x;
+    this.y = _y; 
+    this.size = _s;
+    this.color = _c;
+    this.shape = round(random(0, 1));
+    this.speed = random(0.5, 2);
+    this.time = random(1, 100);
+    this.amp = random(2, 30);
+  }
+  
+  display() {
+    push();
+    noStroke();
+    fill(this.color);
+    translate(this.x, this.y);
+    translate(this.amp*cos(this.time), this.amp*sin(this.time));
+    rotate(this.time);
+    scale(cos(this.time), sin(this.time));
+    if (this.shape == 1) {
+      ellipse(0, 0, this.size);      
+    } else {
+      rect(0, 0, this.size, this.size/2);
+    }
+    pop();
+  }
+  
+  move() {
+    this.y += this.speed;
+    this.speed += 0.005;
+    this.time += 0.05;
+    if (this.y > height) {
+      this.y = 0;
+      this.speed = random(0.5, 2);
+    }
+  }
+}
+```
+
+<img width="305" height="296" alt="image" src="https://github.com/user-attachments/assets/a9f9113a-2624-409e-9c4e-124ce91226bb" />
+
 
 
