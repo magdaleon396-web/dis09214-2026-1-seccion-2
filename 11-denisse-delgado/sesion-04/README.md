@@ -3,7 +3,9 @@
 - **Variables**: Constantes y no constantes
 - setup es solo una vez, y el draw va cambiando
 
-1. **mousex/ mousey**: Hace que se mueva la figura con el mouse (mouseX, mouseY);
+1. **mousex/ mousey**:
+- Variables de sistema numérico que determinan la posición del mouse en las coordenadas X e Y.
+- Hace que se mueva la figura con el mouse (mouseX, mouseY);
 
     * Ejemplo: 
 ellipse(mouseX, mouseY, 100,100):  Hace que aparezca un círculo que se mueve con el mouse
@@ -20,10 +22,10 @@ ellipse(mouseX, mouseY, mouseX, mouseY): Hace que se agrande o achique según x 
  <img width="1108" height="574" alt="2026-04-11 (4)" src="https://github.com/user-attachments/assets/6f6852be-1d6e-4b90-819a-29971e80bb0e" />
 
 a. Crea tus propias variables:
+- Para declarar una variable podemos usar let para variables dinámicas y const para variables constantes.
 
-<img width="819" height="494" alt="2026-04-11 (5)" src="https://github.com/user-attachments/assets/dc9058ab-8373-46c7-aa9d-ed5a7eb04904" /><img width="575" height="423" alt="2026-04-11 (6)" src="https://github.com/user-attachments/assets/7b40acaa-1184-4c7b-bc0e-c5b38cf3a98b" />
+<img width="819" height="494" alt="2026-04-11 (5)" src="https://github.com/user-attachments/assets/dc9058ab-8373-46c7-aa9d-ed5a7eb04904" />
 
-   
 b. Declarar variable: let(v. dinámicas): antes se usaba var y const(v. constantes)
    
 c. Inicializa tu variable:
@@ -34,8 +36,11 @@ d. Usa tu variable:
 
   * La variable puede tener el nombre que quieran pero la primera palabra va en minúscula y después la otra palabra lleva la primera letra en mayúscula
 
-
 4. **Javascript objects**: Variables agrupadas
+- Es la forma de agrupar muchas variables dentro de una variable. Es una estructura de datos que te permite agrupar valores relacionados bajo un mismo nombre. En lugar de tener muchas variables sueltas, los objetos funcionan como un "contenedor" que organiza la información mediante pares de clave y valor.
+
+- Luego se accede a la información mediante notación de punto.
+
     *Ejemplo: (https://editor.p5js.org/PoliMujica/sketches/cuJXAPjTm)
 
     * Después se pone . x (le dices que vaya a esa variable)
@@ -44,7 +49,9 @@ d. Usa tu variable:
 
 <img width="575" height="423" alt="2026-04-11 (6)" src="https://github.com/user-attachments/assets/d36673df-5cb0-4b9d-8dcd-87ec7c0abf54" />
 
-5. **Random()fuction**: Devolver numero aleatorio dentro de un rango
+5. **Random()fuction**:
+- Devolver numero aleatorio dentro de un rango
+- Su trabajo es devolver un número aleatorio dentro de un rango que tú definas.
 - Hay 3 tipos:
     * random(): Si no pones nada, devuelve un número decimal entre 0 y 1
     * random(máximo): Devuelve un número decimal entre 0 y el máximo que elijas.
