@@ -29,7 +29,7 @@ pensar que una persona es mujer o usa pronombres femeninos solo por vestirse con
 
 
 "La diversidad nos aporta riqueza en todos los sectores y ámbitos de nuestra vida. Sin embargo, en numerosas ocasiones, por simplificar tendemos a “etiquetar” a las personas dentro de una determinada categoría que los define de una manera concreta, a etiquetarlos con unas características inamovibles y concretas. Al actuar de esta manera, muchas veces inconsciente, no tenemos en cuenta que estamos limitando nuestra percepción de los demás, perdiéndonos toda la complejidad de las personas, sus matices y en definitiva, toda esa riqueza que aporta la diversidad."
-*Fragmento extraído de: https://divem.accem.es/problema-encasillar-personas/*
+*Fragmento extraído de:[divem.accem.es]( https://divem.accem.es/problema-encasillar-personas/)*
 
 IDEA DEL SKETCH
 -
@@ -67,12 +67,12 @@ nuestra mayor inspiración fueron los filtros de tiktok que determinaban qué ba
 
 
 FaceMesh de la biblioteca ml5js : utilizamos este referente para lograr mapear la cara del sujeto.
-biblioteca ml5js: https://docs.ml5js.org/#/reference/facemesh?id=methods
+[biblioteca ml5js](https://docs.ml5js.org/#/reference/facemesh?id=methods) 
 
 <img width="355" height="311" alt="image" src="https://github.com/user-attachments/assets/49dfaff0-da30-412f-a70b-9e6654561eb1" />
 
 
-Código que se utilizó de base para el confeti: https://editor.p5js.org/aceschen/sketches/A1Yn7XDc8 
+[Código que se utilizó de base para el confeti](https://editor.p5js.org/aceschen/sketches/A1Yn7XDc8)
 
 ```
 let confetti = [];
@@ -133,8 +133,16 @@ class Confetto {
   }
 }
 ```
-
 <img width="305" height="296" alt="image" src="https://github.com/user-attachments/assets/a9f9113a-2624-409e-9c4e-124ce91226bb" />
+
+
+DIAGRAMA DE FLUJO
+-
+[link diagrama de flujo](https://canva.link/aw432ebcl03r7xk) 
+<img width="1920" height="1080" alt="diagrama de flujo A_C" src="https://github.com/user-attachments/assets/a9796842-1bc0-4228-ae23-65988de64d0d" />
+
+
+
 
 
 
