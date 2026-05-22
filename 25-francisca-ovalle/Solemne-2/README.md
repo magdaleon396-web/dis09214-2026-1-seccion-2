@@ -53,7 +53,11 @@ Nos inspiramos de ella más que nada porque en un inicio del trabajo no pensabam
 Por lo general nuestro trabajo no tienes más referentes, ya que, buscamos hacer lluvia de ideas con lo que aprendimos en las clases y en base a eso fuimos imaginando que más agregarle, buscabamos como se construian y como se usaban las variables desconocidas y por eso mismo aparecen codigos como el del fondo, primero **teniamos una idea que fue evolucionando hasta quedarnos conforme y que representara lo que buscabamos**.  
 
 ### Diagrama de flujo:  
-!(
+![diagrama](https://i.pinimg.com/736x/2a/df/cc/2adfccd0993d441c1cf26240a6ab7006.jpg)  
+
+### Link para P5.js:  
+[Soleme2]()  
+
 
 
 
