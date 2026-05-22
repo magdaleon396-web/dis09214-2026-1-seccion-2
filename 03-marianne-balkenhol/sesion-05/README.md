@@ -36,10 +36,10 @@ angleMode(DEGREES);
 ```
 
 Equivalencias:
-- `TWO_PI` → 360°
-- `PI` → 180°
-- `HALF_PI` → 90°
-- `QUARTER_PI` → 45°
+- TWO_PI = 360°
+- PI = 180°
+- HALF_PI = 90°
+- QUARTER_PI = 45°
 
 ---
 
@@ -98,48 +98,8 @@ scale(2,2);
 
 ## **Booleanos**
 Solo pueden ser:
-- `true`
-- `false`
-
----
-
-## **Operadores comparación**
-```javascript
-==
-!=
->
-<
->=
-<=
-```
-
-Ejemplos:
-```javascript
-2 < 3 // true
-3 > 2 // true
-2 == 2 // true
-2 != 2 // false
-```
-
----
-
-## **Operadores lógicos**
-```javascript
-&&
-||
-!
-```
-
-- `&&` → AND.
-- `||` → OR.
-- `!` → NOT.
-
-Ejemplo:
-```javascript
-true && false // false
-true || false // true
-!true // false
-```
+- true
+- false
 
 ---
 

@@ -2,22 +2,22 @@
 
 ## **Funciones propias**
 
-## **Aclaraciones GitHub / Markdown**
+## ** GitHub / Markdown**
 
-Para los apuntes de clase en GitHub se usa un archivo `.md`, porque ese formato acepta texto con Markdown.
+Para los apuntes de clase en GitHub se usa un archivo .md, porque ese formato acepta texto con Markdown.
 
 
 Para escribir código dentro del README se puede usar:
 
-```javascript
+javascript
 // bloque de código
-```
 
-Y si es una línea corta dentro de una oración, se usa así: `código`.
+
+Y si es una línea corta dentro de una oración, se usa así: código.
 
 También es importante comentar el código con detalle, como si lo fuera a leer alguien que no sabe programar. La idea es que otra persona pueda entender qué hace cada parte y replicarlo.
 
-Nota importante: `angleMode(DEGREES)` no sirve para “hacer arcos” o “hacer semicírculos”. Solo configura la forma en que p5.js mide los ángulos, en este caso en grados.
+Nota importante: angleMode(DEGREES) no sirve para “hacer arcos” o “hacer semicírculos”. Solo configura la forma en que p5.js mide los ángulos, en este caso en grados.
 
 ---
 
@@ -61,7 +61,7 @@ Es mirar qué cosas se repiten o siguen una misma lógica.
 
 En diseño, si tengo que representar 100 personas, no necesito dibujarlas una por una. Puedo notar que todas tienen una forma parecida, por ejemplo un círculo que cambia de posición.
 
-En código esto se relaciona con los bucles `for`, porque si hay un patrón, el código puede repetirlo por mí.
+En código esto se relaciona con los bucles for, porque si hay un patrón, el código puede repetirlo por mí.
 
 ---
 
@@ -73,7 +73,7 @@ Es quedarse con lo necesario y sacar lo que no aporta tanto.
 
 En diseño, para representar presión social no hace falta dibujar toda una sociedad. Puede bastar con un círculo que se achica cuando el mouse se acerca.
 
-En código esto se puede trabajar con variables y `map()`, por ejemplo transformar `mouseX` en un valor de opacidad, tamaño o movimiento.
+En código esto se puede trabajar con variables y map(), por ejemplo transformar `mouseX` en un valor de opacidad, tamaño o movimiento.
 
 
 ---
@@ -175,7 +175,7 @@ ellipse(pelota.x,pelota.y,24,24);
 }
 ```
 
-En este caso, `draw()` llama a la función `DibujarFiguras()`. Entonces el dibujo queda separado y más ordenado.
+En este caso, draw() llama a la función DibujarFiguras(). Entonces el dibujo queda separado y más ordenado.
 
  una función es como guardar una mini tarea con nombre. Después solo escribo ese nombre y se ejecuta todo lo que está adentro.
 
@@ -183,7 +183,7 @@ En este caso, `draw()` llama a la función `DibujarFiguras()`. Entonces el dibuj
 
 ## **Parámetros y argumentos**
 
-Aparece como tema de funciones: “function parameters & arguments”.
+Aparece como tema de funciones: “function parameters and arguments”.
 
 Sirve para que una función pueda recibir datos y cambiar según lo que le entregue.
 no hacer una función rígida, sino una que pueda variar.

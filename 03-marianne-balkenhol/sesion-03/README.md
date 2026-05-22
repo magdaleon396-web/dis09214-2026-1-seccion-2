@@ -3,9 +3,9 @@
 ## **Pensamiento computacional**
 - Algoritmo = pasos ordenados para resolver un problema.
 - Características: precisión, orden, finitud y definición.
-- Input → entrada.
-- Proceso → transformación.
-- Output → resultado.
+- Input = entrada.
+- Proceso = transformación.
+- Output = resultado.
 
 La idea del algoritmo es que si sigo los mismos pasos debería llegar siempre al mismo resultado. Es como una receta, pero aplicada a lógica.
 
@@ -43,10 +43,10 @@ function draw(){
 }
 ```
 
-- `setup()` → configuración inicial.
-- `draw()` → loop infinito, movimiento e interacción.
+- setup() → configuración inicial.
+- draw( → loop infinito, movimiento e interacción.
 
-`setup()` ocurre solo una vez, mientras que `draw()` se repite constantemente. Ahí es donde normalmente pasa el movimiento.
+setup() ocurre solo una vez, mientras que draw() se repite constantemente. Ahí es donde normalmente pasa el movimiento.
 
 ---
 
@@ -62,10 +62,10 @@ background(0,0,255,50);
 - Canvas = lienzo.
 - Background = color fondo.
 - RGB + Alpha.
-- En `setup()` queda fijo.
-- En `draw()` se reinicia constantemente.
+- En setup() queda fijo.
+- En draw() se reinicia constantemente.
 
-Si el `background()` está en `draw()`, el dibujo se limpia frame por frame. Si no, empiezan a quedar rastros y “memoria” del movimiento.
+Si el background() está en draw(), el dibujo se limpia frame por frame. Si no, empiezan a quedar rastros y “memoria” del movimiento.
 
 ---
 
@@ -76,16 +76,14 @@ colorMode(HSB);
 colorMode(HSL);
 ```
 
-- RGB → Red, Green, Blue.
-- HSB → Hue, Saturation, Brightness.
-- HSL → Hue, Saturation, Lightness.
+- RGB = Red, Green, Blue.
 
 RGB funciona más pensando en mezcla de luces, mientras HSB y HSL son más cómodos para controlar tonos y saturación de forma visual.
 
 ---
 
 ## **Sistema coordenadas**
-- `(0,0)` arriba izquierda.
+- (0,0) arriba izquierda.
 - X horizontal.
 - Y vertical.
 
@@ -106,21 +104,18 @@ quad();
 arc();
 ```
 
-- `rect()` parte desde esquina.
-- `ellipse()` desde centro.
-- `arc()` sirve para arcos y medios círculos.
 
 ```javascript
 angleMode(DEGREES);
 ```
 
 Ángulos:
-- 0° → derecha.
-- 90° → abajo.
-- 180° → izquierda.
-- 270° → arriba.
+- 0° = derecha.
+- 90° = abajo.
+- 180° = izquierda.
+- 270° = arriba.
 
-Importante: `angleMode(DEGREES)` no crea arcos, solo cambia la forma en que se miden los ángulos.
+Importante: angleMode(DEGREES) no crea arcos, solo cambia la forma en que se miden los ángulos.
 
 ---
 
@@ -144,4 +139,4 @@ Tipos:
 - SQUARE
 - PROJECT
 
-`strokeWeight()` cambia muchísimo cómo se siente visualmente una figura. Aunque sea la misma forma, un borde grueso o fino cambia caleta el resultado.
+strokeWeight() cambia muchísimo cómo se siente visualmente una figura. Aunque sea la misma forma, un borde grueso o fino cambia caleta el resultado.

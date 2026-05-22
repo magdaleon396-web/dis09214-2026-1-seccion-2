@@ -20,7 +20,7 @@ Variables integradas que detectan posición del mouse en eje X e Y.
 ellipse(mouseX, mouseY, 100,100);
 ```
 
-El círculo sigue al mouse porque `mouseX` y `mouseY` están cambiando constantemente. Todo el rato guardan la posición actual del cursor.
+El círculo sigue al mouse porque mouseX y mouseY están cambiando constantemente. Todo el rato guardan la posición actual del cursor.
 
 ---
 
@@ -32,7 +32,7 @@ width;
 height;
 ```
 
-- Tamaño definido en `createCanvas()`.
+- Tamaño definido en createCanvas().
 
 Sirven para no tener que escribir manualmente medidas todo el tiempo.
 
@@ -52,7 +52,7 @@ mouseButton;
 - Detectar click.
 - Botón presionado.
 
-`pmouseX` guarda la posición anterior del mouse, entonces sirve harto para detectar velocidad o dirección de movimiento.
+pmouseX guarda la posición anterior del mouse, entonces sirve harto para detectar velocidad o dirección de movimiento.
 
 ---
 
@@ -73,7 +73,7 @@ frameCount;
 deltaTime;
 ```
 
-`frameCount` nunca deja de subir mientras el sketch corre, entonces puede servir como una especie de contador interno.
+frameCount nunca deja de subir mientras el sketch corre, entonces puede servir como una especie de contador interno.
 
 ---
 
@@ -94,27 +94,15 @@ let circulo = 0;
 const tamaño = 50;
 ```
 
-- `let` → variables dinámicas.
-- `const` → variables constantes.
-- Antes se usaba `var`.
+- let = variables dinámicas.
+- const = variables constantes.
+- Antes se usaba var.
 
-### Pasos
+**pasos:**
 1. Declarar.
 2. Inicializar.
 3. Usar.
 
-Ejemplo:
-```javascript
-let circuloMorado = 0;
-
-function draw(){
-
-circuloMorado = circuloMorado + 1;
-
-ellipse(circuloMorado,200,50,50);
-
-}
-```
 
 Acá el círculo se mueve porque el valor cambia frame por frame. Si la variable no cambiara, el círculo quedaría quieto.
 
@@ -155,10 +143,6 @@ random(100);
 random(20,50);
 ```
 
-- `random()` → entre 0 y 1.
-- `random(max)` → entre 0 y máximo.
-- `random(min,max)` → entre ambos valores.
-
 Sirve mucho para darle sensación más viva o menos rígida al sketch, porque los valores nunca salen exactamente iguales.
 
 ---
@@ -171,13 +155,6 @@ windowWidth;
 windowHeight;
 ```
 
-- `width` y `height` → tamaño canvas.
-- `windowWidth` y `windowHeight` → tamaño ventana navegador.
-
-Ejemplo:
-```javascript
-createCanvas(windowWidth, windowHeight);
-```
 
 Así el canvas se adapta automáticamente al navegador y no queda fijo en un solo tamaño.
 
@@ -190,10 +167,6 @@ Transforma un rango de valores en otro.
 map(valor, minOriginal, maxOriginal, minNuevo, maxNuevo);
 ```
 
-Ejemplo:
-```javascript
-map(mouseX,0,width,0,255);
-```
 
 - Usado para color, tamaño, movimiento e interacción.
 
