@@ -188,7 +188,7 @@ function texto() {
   noStroke();
   text("haz click para que las figuras se expresen", 400, 750); // creación del texto
 }
-
+```
 ---
 
 [Link P5.js](https://editor.p5js.org/ekkkt0r/sketches/mfg8rmYoM)
