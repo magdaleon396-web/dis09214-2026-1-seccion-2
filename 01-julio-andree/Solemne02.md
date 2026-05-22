@@ -15,7 +15,7 @@ Encasillar / etiquetar personas según apariencias
 
 *Encasillar(RAE): Clasificar personas o hechos con criterios poco flexibles o simplistas.*
 
-El problema con encasillar personas según su apariencia es la consecuencia de quitar o eliminar la diversidad y complejidad que posee el humano, reemplazandola por etiquetas simples que promueven el pensamiento estereotipado de quienes nos perciben y de nosotros  mismos.  Esto puede llevar a una crisis de identidad personal ya que al no sentirse de acuerdo con la etiqueta que otras personas tienen sobre ti tendemos a sentir una desconexión con nuestro entorno y nosotros mismos.
+El problema con encasillar personas según su apariencia es la consecuencia de quitar o eliminar la diversidad y complejidad que posee el humano, remplazandola por etiquetas simples que promueven el pensamiento estereotipado de quienes nos perciben y de nosotros mismos.  Esto puede llevar a una crisis de identidad personal ya que al no sentirse de acuerdo con la etiqueta que otras personas te otorgan tendemos a sentir una desconexión con nuestro entorno y nosotros mismos.
 
 las etiquetas en si no suelen ser del todo maliciosas pero al ser tan cerradas en su significado (gay, lesbiana, mujer, hombre, trans, etc.) resultan restrictivas y deshumanizantes. 
 
@@ -42,23 +42,27 @@ Nuestro proyecto es un código creado en la plataforma de p5.js que tiene como f
 
 ¿Qué se ve en pantalla? 
 
-la pantalla del sketch muestra la cámara del computador que detecta la cara del individuo frente a ella y le designa una bandera de la comunidad lgbt. al aparecer la opción de la bandera trans la imagen será seguida por confeti que cae de manera oscilante sobre el lienzo mientras el texto "¡¡¡¡¡¡¡¡ES TRANS!!!!!!!!" aparece en la parte superior de la pantalla.
+la pantalla del sketch muestra la cámara del computador que detecta la cara del individuo frente a ella y le designa una bandera de la comunidad LGBTQ+. al aparecer la opción de la bandera trans la imagen será seguida por confeti que cae de manera oscilante sobre el lienzo mientras el texto "¡¡¡¡¡¡¡¡ES TRANS!!!!!!!!" aparece en la parte superior de la pantalla.
+
 ¿Qué elementos visuales aparecen? 
-la cámara donde se aprecia la cara del usuario, las banderas lgbt+ que se posicionan sobre su frente, el texto que determina la pregunta que las banderas deben responder y el confetti que celebra el resultado (el confetti solo aparece en el caso de que se muestra la bandera trans).
+
+la cámara donde se aprecia la cara del usuario, la bandera LGBTQ+ que se posiciona sobre su frente, el texto que determina la identidad en un solo caso resultante (el de la bandera trans) y el confetti que celebra el resultado (el confetti solo aparece en el caso de que se muestra la bandera trans).
 
 *• Descripción conceptual*
 -
 Idea central del proyecto y su relación con el sistema diseñado?
 
-Para nuestro sketch nos centraremos en explorar la idea de determinación de identidad sexual pero tomando las características de diferentes etiquetas e implementarlas en una especie de selección aleatoria. el usuario deberá interactuar para ser encasillado en alguna categoría la cual puede o no ser acertada y la respuesta que dé el usuario al sketch demostrará nuestro pensar sobre la problemática tratada. 
+Para nuestro sketch nos centraremos en explorar la idea de determinación de identidad sexual tomando las características de diferentes etiquetas e implementarlas en una especie de selección aleatoria. el usuario deberá interactuar para ser encasillado en alguna categoría la cual puede o no ser acertada. la respuesta que dé el usuario al sketch demostrará nuestro pensar sobre la problemática tratada. 
 
-Buscamos con el sketch hacer que el usuario se sienta minimizado a una sola identidad por culpa de un sistema invisible que no pueden controlar. Para esto pensamos implementar en nuestro sketch la cámara para detectar la cara del usuario y utilizando imágenes de las banderas de la comunidad LGBT+ seguidas por textos que reafirman la etiqueta seleccionada aleatoriamente por el programa el usuario tendrá el resultado pegado a su frente sin poder deshacerse de él dejando al usuario satisfecho o no con su resultado eso no importa ya que el código no está hecho para tener sensaciones humanas en cuenta y el usuario llevará el peso internalizado de la etiqueta que se le asignó.
+Buscamos con el sketch hacer que el usuario se sienta minimizado a una sola identidad por culpa de un sistema invisible que no pueden controlar. Para esto pensamos implementar en nuestro sketch la cámara para detectar la cara del usuario y utilizando imágenes de las banderas de la comunidad LGBTQ+ seguidas por textos que reafirman la etiqueta seleccionada aleatoriamente por el programa el usuario tendrá el resultado pegado a su frente sin poder deshacerse de él dejando al usuario satisfecho o no con su resultado eso no importa ya que el código no está hecho para tener las emociones humanas en cuenta y el usuario llevará el peso internalizado de la etiqueta que se le asignó.
 
-Para crear ese resultado decidimos crear un sketch algo cómico que demuestre diferentes banderas LGBTQ+ que representan las etiquetas que la sociedad le determina  de manera superficial o algo discriminatoria a cualquier ser humano sin importar su compleja personalidad e identidad más allá de lo que se ve a simple vista. Para crear una sensación de aminorar el sentir que un individuo encasillado puede experimentar se implementa en el código partículas de confeti que acompañan al resultado y le agregan un pequeño morbo a la deshumanización de etiquetar al usuario.
+Para crear ese resultado decidimos crear un sketch algo cómico que demuestre diferentes banderas LGBTQ+ que representan las etiquetas que la sociedad le determina  de manera superficial o algo discriminatoria a cualquier ser humano sin importar su compleja personalidad e identidad, más allá de lo que se ve a simple vista. 
+
+Para crear una sensación de aminorar el sentir o "pasa allevar" que un individuo encasillado puede experimentar se implementa en el código partículas de confeti que acompañan al resultado y le agregan un pequeño morbo a la deshumanización de etiquetar al usuario.
 
 *• Referentes*
 -
-nuestra mayor inspiración fueron los filtros de tiktok que determinaban qué bandera lgbt era la persona en pantalla los que la mayoría de veces representaban al usuario de manera errónea y en los videos se nos demostraba la emoción que el usuario posee al inicio animarse, decaer o hasta provocar indignación por el resultado adquirido.
+nuestra mayor inspiración fueron los filtros de tiktok que determinaban qué bandera LGBTQ+ era la persona en pantalla. la mayoría de veces representaban al usuario de manera errónea y en los videos se nos demostraba la emoción que el usuario posee al inicio cambiar. el usuario puede animarse, decaer o hasta indignarse por el resultado adquirido.
 
 <img width="247" height="443" alt="image" src="https://github.com/user-attachments/assets/d2c9a284-76a1-478e-a476-f5c84ba3b766" />
 
@@ -306,8 +310,10 @@ class Confetto {
   }
 }
 ```
+
 explicación de nuestro sistema:
 -
+
 • ¿Cuál es la regla de oro de tu sistema?
 
 el codigo que creamos funciona en base al reconocimiento facial de el usuario que interactua con el programa y en base a ese reconocimeinto arroja una bandera lGBTQ+ al azar que representa la etiqueta que se le otorga al usuario en base a su "apariencia" (detectar rostro = etiqueta de identidad).
@@ -317,13 +323,10 @@ el codigo que creamos funciona en base al reconocimiento facial de el usuario qu
 con esta logica podemos representar como la sociedad simplifica al usuario a un simple objeto para detectar visualmente y ser "juzgado" por su apariencia la cual despues es analizada y etiquetada, deshumanizando al usuario. 
 • Input / Output y sistema
 
-
 ¿Qué datos entran? (INPUT) *reconocimiento facial del usuario y click a la pantalla.*
 ¿Qué respuesta visual producen? (OUTPUT) *se clasifica con una bandera LGBT al detectar tu rostro o cambia con el click del mouse.*
 
-
 • Pensamiento computacional
-
 
 Reglas que gobiernan el sistema (inputs, procesos, outputs)
 Explicación del sistema de interactividad 
