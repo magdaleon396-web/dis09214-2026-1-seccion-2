@@ -122,8 +122,6 @@ Ejemplo:
 
 # Camara Web
 
-## Que es
-
 Permite capturar video en tiempo real desde la camara del computador.
 
 El navegador debe pedir permiso para acceder a ella.
@@ -150,24 +148,6 @@ La imagen de la camara se dibuja en el lienzo en tiempo real.
 
 Cada frame se actualiza constantemente.
 
----
 
-# Posibilidades de uso
-
-## Filtros
-
-Modificar colores y apariencia de la imagen.
-
-## Pixeles
-
-Leer y modificar los pixeles de la camara.
-
-## Pinceles interactivos
-
-Usar la imagen de la camara para dibujar.
-
-## Sonido + imagen
-
-Hacer que los pixeles reaccionen al volumen del microfono.
 
 
