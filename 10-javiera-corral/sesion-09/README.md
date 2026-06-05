@@ -130,7 +130,29 @@ usamos la función image(). p5.js toma cada cuadro
 (frame) de la cámara y lo dibuja en el lienzo en
 tiempo real.
 
-ejemeplo de cámara:
+ejemplo cámara basico: 
+
+let captura;
+
+function setup() {
+  createCanvas(640, 480);
+  
+  // Capturamos la cámara del computador
+  captura = createCapture(VIDEO); 
+  captura.size(500, 480); //define tamaño de la captura de video
+  captura.hide(); // Esconde el duplicado de HTML
+  textAlign(CENTER);
+}
+
+function draw() {
+  background(0);
+  
+  // Dibujamos la captura en la posición (0,0)
+  image(captura, 0, 0, width, height);
+}
+
+ejemeplo de cámara con efecto de sobre exposición:
+
 let captura;
 
 function setup() {
