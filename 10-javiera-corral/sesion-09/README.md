@@ -43,7 +43,7 @@ DIFERENTES MANERAS DE CAMBIAR ESTADOS
 
 codigo de ejemplo:
 
-(arreglar depsues el formato del codigo) se me ovido como hacer esto en el compu mac 
+```  
 let estado = 0;
 
 function setup() {
@@ -108,6 +108,17 @@ function mousePressed() {
     estado = 0;
   }
 }
+```
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/8f45c7c3-1b50-4d3d-bf35-6c6265021e01" />
+
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9ebf7bb5-1420-48d7-8618-10b4873ff531" />
+
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/07d20aec-75ee-4431-86c4-ca2a0fb2b2df" />
+
+
 
 CÁMARA WEB
 -
@@ -150,6 +161,10 @@ function draw() {
   // Dibujamos la captura en la posición (0,0)
   image(captura, 0, 0, width, height);
 }
+
+<img width="380" height="200" alt="image" src="https://github.com/user-attachments/assets/7ecbb551-f5ff-41da-af6b-63a412c44e72" />
+
+
 
 ejemeplo de cámara con efecto de sobre exposición:
 
