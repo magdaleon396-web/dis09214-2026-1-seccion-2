@@ -1,5 +1,5 @@
 # sesión 03 - 27/03
-**Clase 1 Pensamiento Computacional**
+**Clase 2 Pensamiento Computacional**
 
 
 ***Arquitectura del pensamiento***
