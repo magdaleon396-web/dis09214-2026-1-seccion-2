@@ -1,5 +1,5 @@
 # sesión 03 - 27/03
- **CLASE 2 pensamiento computacional**
+ **CLASE 3 pensamiento computacional**
   
   
   ***clase pj5***
