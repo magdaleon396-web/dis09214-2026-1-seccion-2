@@ -75,10 +75,9 @@ que queremos demostar en nuestro proyecto.
 
 
 
-[Diagrama de flujo](file:///Users/mac/Downloads/INICIO.png)
+
 
 ## Código examen P5js
-
 
 
 //VARIABLES CREADAS
