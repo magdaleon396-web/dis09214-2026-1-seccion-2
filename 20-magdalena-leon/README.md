@@ -1,9 +1,9 @@
 # pc-dis09214-2026-1-seccion-2
 
-**Exámen**
+## Exámen
 
 
-***Desigualdad de opinión***
+## Desigualdad de opinión
 
 Autoras: Olivia Preece, Magdalena León.
 
