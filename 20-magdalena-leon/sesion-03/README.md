@@ -1,5 +1,36 @@
 # sesión 03 - 27/03
  **CLASE 3 pensamiento computacional**
+
+ Algoritmo 
+Es una secuencia de instrucciones paso a paso, lógicas, definidas, ordenadas o infinitas que permiten solucionar un problema o realizar una tarea específica.
+
+Input-entrada-Output.
+
+
+Diagrama de flujo: 
+Representación gráfica del algoritmo.
+
+Array 
+Contenedor con compartimentos donde puedes guardar múltiples datos bajo un mismo nombre. Es una lista que tiene varios datos ordenados. Los arreglos (Array) son muy utiles para almacenar datos relacionados a  
+
+let nombre Array = [e0, e1,e2,e3,e4,e5];
+let Colores= [“red”, “orange”; “yellow”, “green”, “blue”]
+
+Para llamar a algunos valores de mi Array vamos a usar:
+nombreArray [n°elemento]
+
+Ejemplo 
+background (Colores[1]);
+Esto pintará el fondo de mi lienzo de color anaranjado.
+
+
+Class
+Una class es un molde o plantilla abstracta que define la estructura, los datos (propiedades) y los comportamientos
+(métodos) que tendrá un tipo de objeto específico.
+
+
+class NombreDeLaClase {
+
   
   
   ***clase pj5***
